@@ -1,0 +1,49 @@
+.admin__post {
+  display: flex;
+  width: 80%;
+  margin: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 1em var(--secondary-color);
+  background: rgba(0, 0, 0, 0.75);
+  background: linear-gradient(
+    to right top,
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0.25)
+  );
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid var(--secondary-color);
+  .admin__post-body {
+    flex: 1;
+    padding: 0.2rem 0.5rem;
+    .admin__post-message {
+      span {
+        font-weight: 700;
+      }
+      p {
+        font-size: 0.8rem;
+      }
+    }
+  }
+  .admin__post-actions {
+    background-color: var(--blue-color);
+    border-radius: 0 8px 8px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 10%;
+  }
+}
+
+#eye-icon {
+  width: 20px;
+  height: 20px;
+  color: #217a80;
+}
+#eye-icon:hover {
+  color: #fff;
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: 0.2s ease;
+}

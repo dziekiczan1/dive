@@ -1,0 +1,88 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-base);
+}
+
+.app__container {
+  width: 100%;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.app__flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app__wrapper {
+  width: 100%;
+  min-height: 100vh;
+  flex-direction: column;
+  padding: 7rem 2rem;
+  text-align: justify;
+
+  @media screen and (max-width: 450px) {
+    padding: 4rem 1rem 2rem;
+  }
+}
+
+.main_section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 3.5rem;
+  @media screen and (max-width: 450px) {
+    padding-top: 1rem;
+  }
+}
+
+.head-text {
+  font-size: 2.75rem;
+  font-weight: 800;
+  color: var(--white-color);
+  text-transform: capitalize;
+  text-shadow: 1px 2px #000;
+
+  span {
+    color: var(--secondary-color);
+  }
+
+  @media screen and (min-width: 2000px) {
+    font-size: 4rem;
+  }
+  @media screen and (max-width: 650px) {
+    font-size: 2rem;
+  }
+  @media screen and (max-width: 450px) {
+    font-size: 1.5rem;
+  }
+}
+
+.p-text {
+  font-size: 0.8rem;
+  text-align: left;
+  color: var(--gray-color);
+  line-height: 1.5;
+
+  @media screen and (min-width: 2000px) {
+    font-size: 1.75rem;
+  }
+}
+
+.bold-text {
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: var(--white-color);
+
+  @media screen and (min-width: 2000px) {
+    font-size: 2rem;
+  }
+
+  @media screen and (max-width: 450px) {
+    font-size: 0.9rem;
+  }
+}

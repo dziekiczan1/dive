@@ -1,0 +1,41 @@
+.spot_section {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 3.5rem;
+  margin: 0 0.2rem;
+  min-height: 95vh;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+.MuiInputBase-input {
+  background-color: red !important;
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.MuiFormControl-root {
+  background-color: aqua;
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.WAMuiChipInput-chipContainer-4 {
+  min-height: 0 !important;
+  margin-bottom: 0 !important;
+}
+.WAMuiChipInput-chip {
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
+  margin: 0 !important;
+}

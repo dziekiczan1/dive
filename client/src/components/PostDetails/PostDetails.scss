@@ -1,0 +1,233 @@
+.head-text-section {
+  font-size: 1.75rem;
+  font-weight: 500;
+  color: var(--white-color);
+  margin: 0;
+}
+
+.post-text {
+  font-size: 1rem;
+  text-align: left;
+  color: var(--white-color);
+  line-height: 1.5;
+  text-align: justify;
+  text-justify: inter-word;
+
+  span {
+    color: var(--secondary-color);
+    font-weight: 700;
+  }
+
+  @media screen and (min-width: 2000px) {
+    font-size: 1.75rem;
+  }
+}
+.hashtag-text-details {
+  font-size: 0.8rem;
+  font-style: italic;
+  font-weight: 700;
+  color: var(--secondary-color);
+  margin-top: 1rem;
+}
+
+.info-text {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--white-color);
+  line-height: 1;
+  margin: 0.8rem 0;
+}
+
+.seperate-line {
+  border: 0;
+  height: 3px;
+  background: linear-gradient(to right, var(--secondary-color), transparent);
+}
+
+.details__card-background {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 0 1em var(--secondary-color);
+  background: rgba(0, 0, 0, 0.75);
+  background: linear-gradient(
+    to right top,
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0.25)
+  );
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid var(--secondary-color);
+
+  .details__admin-approval {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+
+    p {
+      font-size: 2rem;
+      font-weight: 500;
+    }
+  }
+}
+
+.details__card-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.details__card-information {
+  display: flex;
+  flex-direction: row;
+  @media screen and (max-width: 750px) {
+    flex-direction: column;
+  }
+}
+
+.details__card-information-background {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 2rem;
+  @media screen and (max-width: 750px) {
+    width: 100%;
+  }
+}
+
+.details__card-information-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.details__card-information-header-info {
+  margin: 1rem 0;
+}
+
+.details__card-information-image {
+  width: 50%;
+  padding: 2rem;
+  @media screen and (max-width: 750px) {
+    width: 100%;
+    padding: 0rem 2rem 0.5rem 2rem;
+  }
+}
+
+img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  border-radius: 1rem;
+  @media screen and (max-width: 750px) {
+    height: 300px;
+  }
+}
+
+.details__card-comments {
+  display: flex;
+  flex-direction: column;
+}
+.details__card-comments-body {
+  display: flex;
+  flex-direction: row;
+  padding: 2rem;
+}
+.details__card-comments-header,
+.details__card-similar-header {
+  padding-left: 2rem;
+}
+.details__card-comments-content {
+  width: 50%;
+  height: 200px;
+  overflow-y: scroll;
+}
+.details__card-comments-input {
+  width: 50%;
+}
+.details__card-comments-input-background {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2rem;
+}
+
+.comment-textarea {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  background-color: var(--black-color);
+  border: 1px solid var(--secondary-color);
+  color: #fff;
+  resize: none;
+  border-radius: 0.5rem;
+}
+
+.send-comment {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  width: 8rem;
+  background-color: var(--black-color);
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: 1px solid var(--secondary-color);
+  border-radius: 0.5rem;
+}
+
+.details__card-similar-body {
+  padding: 2rem;
+  width: 100%;
+  @media screen and (max-width: 750px) {
+    padding: 1rem;
+  }
+  @media screen and (max-width: 450px) {
+    padding: 0.5rem 2rem;
+  }
+}
+
+.details__card-similar-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+
+  .details__card-card {
+    margin: 1rem;
+    width: 22%;
+    @media screen and (max-width: 1200px) {
+      margin: 0.8rem;
+      width: 30%;
+    }
+    @media screen and (max-width: 900px) {
+      margin: 0.5rem;
+      width: 45%;
+    }
+    @media screen and (max-width: 600px) {
+      margin: 0.5rem;
+      width: 100%;
+    }
+  }
+}
+
+.details__card-similar-image {
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
+  margin-top: 0.5rem;
+  @media screen and (max-width: 1200px) {
+    height: 18rem;
+  }
+  @media screen and (max-width: 900px) {
+    height: 15rem;
+  }
+  @media screen and (max-width: 600px) {
+    height: 10rem;
+  }
+}
+
+.spot_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding-top: 3.5rem;
+  min-height: 95vh;
+}
