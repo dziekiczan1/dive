@@ -2,7 +2,7 @@
 
 ### [Live Site](https://memories.piotr.rzadkowolski.dev/)
 
-![Where To? Dive!](https://piotr.rzadkowolski.dev/assets/proj1.jpg)
+![Where To? Dive!](https://piotr.rzadkowolski.dev/assets/proj1.webp)
 
 ## Introduction
 This is a code repository for the **Where To? Dive!** project. 
