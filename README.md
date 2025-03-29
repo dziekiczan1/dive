@@ -1,6 +1,6 @@
 # Where To? Dive!
 
-### [Live Site](https://memories.piotr.rzadkowolski.dev/)
+### [Live Site](https://dive.erzet.dev/)
 
 ![Where To? Dive!](https://piotr.rzadkowolski.dev/assets/proj1.webp)
 
